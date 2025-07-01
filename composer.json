@@ -1,0 +1,19 @@
+{
+    "name": "milenasimonyan/test-e-commerse-platform",
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "src/Controllers/",
+            "Repositories\\": "src/Repositories/",
+            "Traits\\": "src/Traits/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MilSimonyan",
+            "email": "millsimonyan01@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
